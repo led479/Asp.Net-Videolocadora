@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Rolf\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Rolf\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Vidly.-1465529814.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Rolf\source\repos\Vidly" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Vidly" t="IncludeRecursive">
+        <e p="App_Data" t="Include" />
+        <e p="App_Start" t="Include">
+          <e p="BundleConfig.cs" t="Include" />
+          <e p="FilterConfig.cs" t="Include" />
+          <e p="IdentityConfig.cs" t="Include" />
+          <e p="RouteConfig.cs" t="Include" />
+          <e p="Startup.Auth.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Content" t="Include">
+          <e p="bootstrap-theme.css" t="Include" />
+          <e p="bootstrap-theme.css.map" t="Include" />
+          <e p="bootstrap-theme.min.css" t="Include" />
+          <e p="bootstrap-theme.min.css.map" t="Include" />
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.css.map" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="bootstrap.min.css.map" t="Include" />
+          <e p="Site.css" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="CustomersController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="ManageController.cs" t="Include" />
+          <e p="MoviesController.cs" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="glyphicons-halflings-regular.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.woff" t="Include" />
+          <e p="glyphicons-halflings-regular.woff2" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="201912101636187_InitialModel.cs" t="Include" />
+          <e p="201912101636187_InitialModel.Designer.cs" t="Include" />
+          <e p="201912101636187_InitialModel.resx" t="Include" />
+          <e p="201912101650145_AddIsSubscribedToCustomer.cs" t="Include" />
+          <e p="201912101650145_AddIsSubscribedToCustomer.Designer.cs" t="Include" />
+          <e p="201912101650145_AddIsSubscribedToCustomer.resx" t="Include" />
+          <e p="201912101653384_AddMembershipType.cs" t="Include" />
+          <e p="201912101653384_AddMembershipType.Designer.cs" t="Include" />
+          <e p="201912101653384_AddMembershipType.resx" t="Include" />
+          <e p="201912101655419_PopulateMembershipTypes.cs" t="Include" />
+          <e p="201912101655419_PopulateMembershipTypes.Designer.cs" t="Include" />
+          <e p="201912101655419_PopulateMembershipTypes.resx" t="Include" />
+          <e p="201912101702011_ApplyAnnotationToCustomerName.cs" t="Include" />
+          <e p="201912101702011_ApplyAnnotationToCustomerName.Designer.cs" t="Include" />
+          <e p="201912101702011_ApplyAnnotationToCustomerName.resx" t="Include" />
+          <e p="201912101737352_AddNameToMembership.cs" t="Include" />
+          <e p="201912101737352_AddNameToMembership.Designer.cs" t="Include" />
+          <e p="201912101737352_AddNameToMembership.resx" t="Include" />
+          <e p="201912101739498_UpdateMembershipTypes.cs" t="Include" />
+          <e p="201912101739498_UpdateMembershipTypes.Designer.cs" t="Include" />
+          <e p="201912101739498_UpdateMembershipTypes.resx" t="Include" />
+          <e p="201912101753333_AddBirthdateToCustomer.cs" t="Include" />
+          <e p="201912101753333_AddBirthdateToCustomer.Designer.cs" t="Include" />
+          <e p="201912101753333_AddBirthdateToCustomer.resx" t="Include" />
+          <e p="Configuration.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="AccountViewModels.cs" t="Include" />
+          <e p="Customer.cs" t="Include" />
+          <e p="Genre.cs" t="Include" />
+          <e p="IdentityModels.cs" t="Include" />
+          <e p="ManageViewModels.cs" t="Include" />
+          <e p="MembershipType.cs" t="Include" />
+          <e p="Movie.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="bootstrap.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="jquery-3.3.1.intellisense.js" t="Include" />
+          <e p="jquery-3.3.1.js" t="Include" />
+          <e p="jquery-3.3.1.min.js" t="Include" />
+          <e p="jquery-3.3.1.min.map" t="Include" />
+          <e p="jquery-3.3.1.slim.js" t="Include" />
+          <e p="jquery-3.3.1.slim.min.js" t="Include" />
+          <e p="jquery-3.3.1.slim.min.map" t="Include" />
+          <e p="jquery.validate-vsdoc.js" t="Include" />
+          <e p="jquery.validate.js" t="Include" />
+          <e p="jquery.validate.min.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+          <e p="modernizr-2.8.3.js" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Vidly.csproj" t="IncludeRecursive" />
+        <e p="ViewModels" t="Include">
+          <e p="RandomMovieViewModel.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Account" t="Include">
+            <e p="_ExternalLoginsListPartial.cshtml" t="Include" />
+            <e p="ConfirmEmail.cshtml" t="Include" />
+            <e p="ExternalLoginConfirmation.cshtml" t="Include" />
+            <e p="ExternalLoginFailure.cshtml" t="Include" />
+            <e p="ForgotPassword.cshtml" t="Include" />
+            <e p="ForgotPasswordConfirmation.cshtml" t="Include" />
+            <e p="Login.cshtml" t="Include" />
+            <e p="Register.cshtml" t="Include" />
+            <e p="ResetPassword.cshtml" t="Include" />
+            <e p="ResetPasswordConfirmation.cshtml" t="Include" />
+            <e p="SendCode.cshtml" t="Include" />
+            <e p="VerifyCode.cshtml" t="Include" />
+          </e>
+          <e p="Customers" t="Include">
+            <e p="Details.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="About.cshtml" t="Include" />
+            <e p="Contact.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Manage" t="Include">
+            <e p="AddPhoneNumber.cshtml" t="Include" />
+            <e p="ChangePassword.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="ManageLogins.cshtml" t="Include" />
+            <e p="SetPassword.cshtml" t="Include" />
+            <e p="VerifyPhoneNumber.cshtml" t="Include" />
+          </e>
+          <e p="Movies" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="Random.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_LoginPartial.cshtml" t="Include" />
+            <e p="_NavBar.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+            <e p="Lockout.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="Vidly.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
