@@ -24,10 +24,10 @@
     @foreach (var movie in Model)
     {
         <tr>
-            <td>@Html.ActionLink(@movie.Name, "Edit", new { id = @movie.Id }, null)</td>
+            <td>@Html.ActionLink(@movie.Name, "Details", new { id = @movie.Id }, null)</td>
             <td>@movie.Genre.Name</td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new {id = @movie.Id}, new {@class = "btn btn-default"})
+                @Html.ActionLink("Edit", "Edit", new {id = @movie.Id}, new {@class = "btn btn-secondary"})
                 @using (
                     Html.BeginForm(
                         "Delete", 

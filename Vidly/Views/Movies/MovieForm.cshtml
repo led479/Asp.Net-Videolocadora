@@ -5,7 +5,7 @@
     
 }
 
-<h1>@ViewBag.Title</h1>
+<h2>@ViewBag.Title</h2>
 
 @using (@Html.BeginForm("Save", "Movies"))
 {
@@ -21,7 +21,8 @@
         @Html.LabelFor(m => m.Movie.GenreId)
         @Html.DropDownListFor(
             m => m.Movie.GenreId,
-            new SelectList(Model.Genres, "Id", "Name", ""),
+            new SelectList(Model.Genres, "Id", "Name"),
+            "",
             new { @class = "form-control" }
             )
     </div>

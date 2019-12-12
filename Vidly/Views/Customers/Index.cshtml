@@ -7,6 +7,10 @@
 
 <h1>Customers</h1>
 
+<div class="form-group">
+    @Html.ActionLink("New Customer", "New", "Customers", null, new { @class = "btn btn-primary" })
+</div>
+
 @if (!Model.Any())
 {
     <text>We don't have any customers yet.</text>
