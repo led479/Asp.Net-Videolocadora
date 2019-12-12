@@ -19,12 +19,14 @@ namespace Vidly.Models
         public DateTime DateAdded { get; set; }
 
         [Display(Name = "Number in Stock")]
+        [Required]
+        [Range(1, 20)]
         public byte NumberInStock { get; set; }
 
         public Genre Genre { get; set; }
 
         [Display(Name = "Genre")]
-        [Required]
+        [Required(ErrorMessage = "Please select a Genre")]
         public byte GenreId { get; set; }
     }
     
