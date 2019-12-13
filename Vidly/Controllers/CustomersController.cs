@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web.Mvc;
@@ -19,6 +20,23 @@ namespace Vidly.Controllers
         protected override void Dispose(bool disposing)
         {
             _context.Dispose();
+        }
+
+        //        [Route("customers")]
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        //        [Route("customers/details/{id}")]
+        public ActionResult Details(int id)
+        {
+            var customer = _context.Customers.Include(c => c.MembershipType).FirstOrDefault(c => c.Id == id);
+
+            if (customer == null)
+                return HttpNotFound();
+
+            return View(customer);
         }
 
         public ActionResult New()
@@ -80,22 +98,7 @@ namespace Vidly.Controllers
             return View("CustomerForm", viewModel);
         }
 
-        //        [Route("customers")]
-        public ActionResult Index()
-        {
-            return View();
-        }
-
-//        [Route("customers/details/{id}")]
-        public ActionResult Details(int id)
-        {
-            var customer = _context.Customers.Include(c => c.MembershipType).FirstOrDefault(c => c.Id == id);
-
-            if (customer == null)
-                return HttpNotFound();
-
-            return View(customer);
-        }
+        
 
         
     }
