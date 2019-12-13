@@ -22,6 +22,8 @@ namespace Vidly.Dtos
         [Range(1, 20)]
         public byte NumberInStock { get; set; }
 
+        public GenreDto Genre { get; set; }
+
         [Required(ErrorMessage = "Please select a Genre")]
         public byte GenreId { get; set; }
     }
