@@ -50,7 +50,9 @@ namespace Vidly.Controllers.Api
                 return BadRequest();
 
             movieDto.DateAdded = DateTime.Now;
+
             var movie = Mapper.Map<MovieDto, Movie>(movieDto);
+
             _context.Movies.Add(movie);
             _context.SaveChanges();
 
@@ -91,5 +93,7 @@ namespace Vidly.Controllers.Api
 
             return ResponseMessage(new HttpResponseMessage(HttpStatusCode.NoContent));
         }
+
+        
     }
 }
