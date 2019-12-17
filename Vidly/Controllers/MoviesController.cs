@@ -57,7 +57,10 @@ namespace Vidly.Controllers
         public ActionResult Save(Movie movie)
         {
             if (movie.Id == 0)
+            {
                 movie.DateAdded = DateTime.Now;
+                movie.NumberAvailable = movie.NumberInStock;
+            }
 
             if (!ModelState.IsValid)
             {

@@ -40,6 +40,8 @@
     <setting file="file://$PROJECT_DIR$/Vidly/App_Start/RouteConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vidly/Controllers/MoviesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vidly/Views/Customers/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vidly/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vidly/Views/Home/Contact.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vidly/Migrations/201912101737352_AddNameToMembership.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -127,6 +129,7 @@
       <workItem from="1575995987773" duration="44000" />
       <workItem from="1576001768139" duration="492000" />
       <workItem from="1576496684002" duration="7486000" />
+      <workItem from="1576518888913" duration="723000" />
     </task>
     <servers />
   </component>
@@ -140,7 +143,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

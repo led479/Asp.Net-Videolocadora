@@ -34,12 +34,12 @@
         @Html.TextBoxFor(m => m.NumberInStock, new { @class = "form-control" })
         @Html.ValidationMessageFor(m => m.NumberInStock)
     </div>
-    @Html.HiddenFor(m => m.Id)
+@*     @Html.HiddenFor(m => m.Id) *@
     @Html.AntiForgeryToken()
     <button type="submit" class="btn btn-primary">Save</button>
 }
 
-@section scripts
-{
-    @Scripts.Render("~/bundles/jqueryval")
-}
+@* @section scripts *@
+@* { *@
+@*     @Scripts.Render("~/bundles/jqueryval") *@
+@* } *@

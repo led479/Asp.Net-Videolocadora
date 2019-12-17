@@ -201,17 +201,24 @@
           <e p="font-awesome.css" t="Include" />
           <e p="font-awesome.min.css" t="Include" />
           <e p="Site.css" t="Include" />
+          <e p="toastr.css" t="Include" />
+          <e p="toastr.less" t="Include" />
+          <e p="toastr.min.css" t="Include" />
+          <e p="toastr.scss" t="Include" />
+          <e p="typeahead.css" t="Include" />
         </e>
         <e p="Controllers" t="Include">
           <e p="AccountController.cs" t="Include" />
           <e p="Api" t="Include">
             <e p="CustomersController.cs" t="Include" />
             <e p="MoviesController.cs" t="Include" />
+            <e p="RentalsController.cs" t="Include" />
           </e>
           <e p="CustomersController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
           <e p="ManageController.cs" t="Include" />
           <e p="MoviesController.cs" t="Include" />
+          <e p="RentalsController.cs" t="Include" />
         </e>
         <e p="Dtos" t="Include">
           <e p="CustomerDto.cs" t="Include" />
@@ -278,9 +285,12 @@
           <e p="201912131732228_AddPhoneToUser.cs" t="Include" />
           <e p="201912131732228_AddPhoneToUser.Designer.cs" t="Include" />
           <e p="201912131732228_AddPhoneToUser.resx" t="Include" />
-          <e p="201912161356558_AddModelRental.cs" t="Include" />
-          <e p="201912161356558_AddModelRental.Designer.cs" t="Include" />
-          <e p="201912161356558_AddModelRental.resx" t="Include" />
+          <e p="201912161405350_AddModelRental.cs" t="Include" />
+          <e p="201912161405350_AddModelRental.Designer.cs" t="Include" />
+          <e p="201912161405350_AddModelRental.resx" t="Include" />
+          <e p="201912161438559_AddNumberAvailableToMovie.cs" t="Include" />
+          <e p="201912161438559_AddNumberAvailableToMovie.Designer.cs" t="Include" />
+          <e p="201912161438559_AddNumberAvailableToMovie.resx" t="Include" />
           <e p="Configuration.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -304,6 +314,8 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="bloodhound.js" t="Include" />
+          <e p="bloodhound.min.js" t="Include" />
           <e p="bootbox.js" t="Include" />
           <e p="bootbox.min.js" t="Include" />
           <e p="bootstrap.bundle.js" t="Include" />
@@ -497,6 +509,12 @@
               <e p="setupEventListeners.js" t="Include" />
             </e>
           </e>
+          <e p="toastr.js" t="Include" />
+          <e p="toastr.min.js" t="Include" />
+          <e p="typeahead.bundle.js" t="Include" />
+          <e p="typeahead.bundle.min.js" t="Include" />
+          <e p="typeahead.jquery.js" t="Include" />
+          <e p="typeahead.jquery.min.js" t="Include" />
           <e p="umd" t="Include">
             <e p="popper-utils.js" t="Include" />
             <e p="popper-utils.js.map" t="Include" />
@@ -556,6 +574,9 @@
             <e p="MovieForm.cshtml" t="Include" />
             <e p="Random.cshtml" t="Include" />
             <e p="ReadOnlyList.cshtml" t="Include" />
+          </e>
+          <e p="Rentals" t="Include">
+            <e p="New.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
